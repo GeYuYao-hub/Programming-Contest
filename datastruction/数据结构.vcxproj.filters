@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\并查集">
+      <UniqueIdentifier>{7810c3dc-a740-47c7-82c9-c312b42412b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\单链表">
+      <UniqueIdentifier>{4227c1a2-43fe-4638-b531-6c12ad449386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\双链表">
+      <UniqueIdentifier>{bd56d2fd-0b40-4fc5-afc6-f92278e6b914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\栈">
+      <UniqueIdentifier>{62393228-fd5c-4e66-a078-29b2208f0043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\队列">
+      <UniqueIdentifier>{268793a9-0362-4c58-99d5-ac66435287dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\KMP">
+      <UniqueIdentifier>{5b565a41-cdd8-41f5-9286-af0d63c276c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Trie">
+      <UniqueIdentifier>{276526d6-7b4c-4395-9a3b-c78ab18cf819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\堆">
+      <UniqueIdentifier>{45ae90df-ea40-4dee-a103-a543b12ee7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\哈希表">
+      <UniqueIdentifier>{076eb943-ef17-4053-85d9-0ba97817f521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="栈\表达式求值.md">
+      <Filter>源文件\栈</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="单链表\单链表.cpp">
+      <Filter>源文件\单链表</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集\合并集合.cpp">
+      <Filter>源文件\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集\食物链.cpp">
+      <Filter>源文件\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="并查集\连通块中点的数量.cpp">
+      <Filter>源文件\并查集</Filter>
+    </ClCompile>
+    <ClCompile Include="双链表\双链表.cpp">
+      <Filter>源文件\双链表</Filter>
+    </ClCompile>
+    <ClCompile Include="栈\表达式求值.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="栈\模拟栈.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="队列\模拟队列.cpp">
+      <Filter>源文件\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="单调栈.cpp">
+      <Filter>源文件\栈</Filter>
+    </ClCompile>
+    <ClCompile Include="队列\滑动窗口.cpp">
+      <Filter>源文件\队列</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP\kmp字符串.cpp">
+      <Filter>源文件\KMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie\Trie字符串.cpp">
+      <Filter>源文件\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="Trie\最大异或对.cpp">
+      <Filter>源文件\Trie</Filter>
+    </ClCompile>
+    <ClCompile Include="堆\堆排序.cpp">
+      <Filter>源文件\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="堆\模拟堆.cpp">
+      <Filter>源文件\堆</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表\模拟散列表.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希表\字符串哈希.cpp">
+      <Filter>源文件\哈希表</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{77288f16-99e1-4bbd-bff8-dbcc02b3a362}</ProjectGuid>
+    <RootNamespace>搜索与图论</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bellman-ford\有边数限制的最短路.cpp" />
+    <ClCompile Include="BFS\八数码.cpp" />
+    <ClCompile Include="BFS\字串变换.cpp" />
+    <ClCompile Include="BFS\献给阿尔吉侬的花束.cpp" />
+    <ClCompile Include="BFS\矩阵距离.cpp" />
+    <ClCompile Include="BFS\走迷宫.cpp" />
+    <ClCompile Include="BFS\魔板.cpp" />
+    <ClCompile Include="DFS\n_皇后问题.cpp" />
+    <ClCompile Include="DFS\排列数字 .cpp" />
+    <ClCompile Include="DFS\红与黑.cpp" />
+    <ClCompile Include="dijkstra\Dijkstra求最短路 I.cpp" />
+    <ClCompile Include="dijkstra\Dijkstra求最短路 II.cpp" />
+    <ClCompile Include="dijkstra\P1608 路径统计.cpp" />
+    <ClCompile Include="dijkstra\P1875 佳佳的魔法药水.cpp" />
+    <ClCompile Include="dijkstra\信使.cpp" />
+    <ClCompile Include="dijkstra\昂贵的聘礼.cpp" />
+    <ClCompile Include="dijkstra\最优乘车.cpp" />
+    <ClCompile Include="dijkstra\最小花费.cpp" />
+    <ClCompile Include="dijkstra\热浪.cpp" />
+    <ClCompile Include="dijkstra\过年好.cpp" />
+    <ClCompile Include="dijkstra\道路与航线.cpp" />
+    <ClCompile Include="dp\买不到的数目.cpp" />
+    <ClCompile Include="dp\最长上升子序列.cpp" />
+    <ClCompile Include="Flood Fill\城堡问题.cpp" />
+    <ClCompile Include="Flood Fill\山峰和山谷.cpp" />
+    <ClCompile Include="Flood Fill\池塘计数.cpp" />
+    <ClCompile Include="Floyd\Floyd求最短路.cpp" />
+    <ClCompile Include="Floyd\P1119 灾后重建.cpp" />
+    <ClCompile Include="Floyd\UVA247 电话圈 Calling Circles.cpp" />
+    <ClCompile Include="Floyd\排序.cpp" />
+    <ClCompile Include="Floyd\牛的旅行.cpp" />
+    <ClCompile Include="Floyd\牛站.cpp" />
+    <ClCompile Include="Floyd\租用游艇.cpp" />
+    <ClCompile Include="Floyd\观光之旅.cpp" />
+    <ClCompile Include="spfa\P1339_Heat_Wave_G.cpp" />
+    <ClCompile Include="spfa\P1828 香甜的黄油 .cpp" />
+    <ClCompile Include="spfa\P2136 拉近距离.cpp" />
+    <ClCompile Include="spfa\P3385 【模板】负环.cpp" />
+    <ClCompile Include="spfa\spfa判断负环.cpp" />
+    <ClCompile Include="spfa\spfa求最短路.cpp" />
+    <ClCompile Include="spfa\虫洞.cpp" />
+    <ClCompile Include="spfa\香甜的黄油.cpp" />
+    <ClCompile Include="二分图\关押罪犯.cpp" />
+    <ClCompile Include="二分图\捉迷藏.cpp" />
+    <ClCompile Include="二分图\机器任务.cpp" />
+    <ClCompile Include="二分图\染色法判定二分图.cpp" />
+    <ClCompile Include="二分图\棋盘覆盖.cpp" />
+    <ClCompile Include="二分图\骑士放置.cpp" />
+    <ClCompile Include="二刷\新年好.cpp" />
+    <ClCompile Include="二刷\昂贵的聘礼二刷.cpp" />
+    <ClCompile Include="二刷\最优乘车二刷.cpp" />
+    <ClCompile Include="二刷\最短路计数.cpp" />
+    <ClCompile Include="二刷\观光.cpp" />
+    <ClCompile Include="二刷\选择最佳线路.cpp" />
+    <ClCompile Include="二刷\通信线路.cpp" />
+    <ClCompile Include="双指针\合并石子.cpp" />
+    <ClCompile Include="双指针\品种邻近.cpp" />
+    <ClCompile Include="双指针\回文平方.cpp" />
+    <ClCompile Include="双指针\奶牛棒球.cpp" />
+    <ClCompile Include="双指针\整数分组.cpp" />
+    <ClCompile Include="双指针\日志统计.cpp" />
+    <ClCompile Include="双指针\期末预测之最佳阈值.cpp" />
+    <ClCompile Include="双指针\火星购物.cpp" />
+    <ClCompile Include="双指针\稀疏向量.cpp" />
+    <ClCompile Include="双指针\贝茜放慢脚步.cpp" />
+    <ClCompile Include="拓扑排序\有向图的拓扑序列.cpp" />
+    <ClCompile Include="最小生成树\Kruskal.cpp" />
+    <ClCompile Include="最小生成树\Prim.cpp" />
+    <ClCompile Include="最小生成树\北极通信网络.cpp" />
+    <ClCompile Include="最小生成树\局域网.cpp" />
+    <ClCompile Include="最小生成树\新的开始.cpp" />
+    <ClCompile Include="最小生成树\最短网络.cpp" />
+    <ClCompile Include="最小生成树\秘密的牛奶运输.cpp" />
+    <ClCompile Include="最小生成树\繁忙的都市.cpp" />
+    <ClCompile Include="最小生成树\联络员.cpp" />
+    <ClCompile Include="最小生成树\走廊泼水节.cpp" />
+    <ClCompile Include="最小生成树\连接格点.cpp" />
+    <ClCompile Include="最近公共祖先\ 距离.cpp" />
+    <ClCompile Include="最近公共祖先\祖孙询问.cpp" />
+    <ClCompile Include="枚举与排序\回文日期.cpp" />
+    <ClCompile Include="枚举与排序\奶牛过马路.cpp" />
+    <ClCompile Include="枚举与排序\归并排序.cpp" />
+    <ClCompile Include="枚举与排序\特别数的和.cpp" />
+    <ClCompile Include="枚举与排序\移动距离.cpp" />
+    <ClCompile Include="枚举与排序\蚂蚁感冒.cpp" />
+    <ClCompile Include="枚举与排序\连号区间数.cpp" />
+    <ClCompile Include="枚举与排序\递增三元组.cpp" />
+    <ClCompile Include="枚举与排序\错误票据.cpp" />
+    <ClCompile Include="枚举与排序\饮料换购.cpp" />
+    <ClCompile Include="树与图的广度优先遍历\ 抓住那头牛.cpp" />
+    <ClCompile Include="树与图的广度优先遍历\ 电路维修.cpp" />
+    <ClCompile Include="树与图的广度优先遍历\图中点的层次.cpp" />
+    <ClCompile Include="树与图的广度优先遍历\完全二叉树的权值.cpp" />
+    <ClCompile Include="树与图的广度优先遍历\武士风度的牛.cpp" />
+    <ClCompile Include="树与图的广度优先遍历\迷宫问题.cpp" />
+    <ClCompile Include="树与图的广度优先遍历\通信线路.cpp" />
+    <ClCompile Include="树与图的深度优先遍历\树的中心.cpp" />
+    <ClCompile Include="状态压缩\闪烁.cpp" />
+    <ClCompile Include="离散化\赶牛入圈.cpp" />
+    <ClCompile Include="离散化\金发姑娘和 N 头牛.cpp" />
+    <ClCompile Include="贪心\交换瓶子.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="搜索与图论.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dijkstra\通信线路.md" />
+    <None Include="dijkstra\道路与航线.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

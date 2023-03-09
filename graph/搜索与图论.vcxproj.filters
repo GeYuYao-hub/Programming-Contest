@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="拓扑排序\有向图的拓扑序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的深度优先遍历\树的中心.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的广度优先遍历\图中点的层次.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS\n_皇后问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS\排列数字 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\八数码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\走迷宫.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\Dijkstra求最短路 I.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\Dijkstra求最短路 II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bellman-ford\有边数限制的最短路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\spfa求最短路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\spfa判断负环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\Floyd求最短路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\Prim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\Kruskal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分图\关押罪犯.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分图\染色法判定二分图.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分图\棋盘覆盖.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分图\机器任务.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分图\骑士放置.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分图\捉迷藏.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Flood Fill\城堡问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Flood Fill\池塘计数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Flood Fill\山峰和山谷.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的广度优先遍历\迷宫问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\虫洞.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的广度优先遍历\ 抓住那头牛.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的广度优先遍历\武士风度的牛.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的广度优先遍历\ 电路维修.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\矩阵距离.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\魔板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\字串变换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\热浪.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\信使.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\香甜的黄油.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\最小花费.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\最优乘车.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\昂贵的聘礼.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\过年好.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的广度优先遍历\通信线路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\道路与航线.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\牛的旅行.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\观光之旅.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\牛站.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\P1339_Heat_Wave_G.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\P3385 【模板】负环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\P2136 拉近距离.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spfa\P1828 香甜的黄油 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\UVA247 电话圈 Calling Circles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\租用游艇.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\繁忙的都市.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\局域网.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\连接格点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\联络员.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\最短网络.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\新的开始.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\北极通信网络.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\走廊泼水节.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最小生成树\秘密的牛奶运输.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\P1875 佳佳的魔法药水.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra\P1608 路径统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd\P1119 灾后重建.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最近公共祖先\祖孙询问.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="最近公共祖先\ 距离.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\日志统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS\献给阿尔吉侬的花束.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS\红与黑.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二刷\昂贵的聘礼二刷.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二刷\新年好.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二刷\最优乘车二刷.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二刷\通信线路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二刷\选择最佳线路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二刷\最短路计数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二刷\观光.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\移动距离.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\错误票据.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\递增三元组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\归并排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\回文日期.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\连号区间数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\特别数的和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dp\买不到的数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\蚂蚁感冒.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\饮料换购.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dp\最长上升子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="贪心\交换瓶子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="树与图的广度优先遍历\完全二叉树的权值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举与排序\奶牛过马路.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\品种邻近.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="状态压缩\闪烁.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="离散化\金发姑娘和 N 头牛.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\奶牛棒球.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\贝茜放慢脚步.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\稀疏向量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\回文平方.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\火星购物.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\期末预测之最佳阈值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\整数分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="双指针\合并石子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="离散化\赶牛入圈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="搜索与图论.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dijkstra\道路与航线.md">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="dijkstra\通信线路.md">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
